@@ -1,0 +1,11 @@
+.conteudo__imagens{
+    display: flex;
+}
+
+.conteudo__titulos{
+    text-align: center;
+}
+
+.imgs{
+    width: 50%;
+}
