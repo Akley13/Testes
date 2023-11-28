@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&family=Bebas+Neue&family=Lato&display=swap');
 
 *{
     margin: 0;
@@ -26,34 +26,37 @@ body::-webkit-scrollbar-thumb{
 }
 
 header{
-    background-color: black;
     padding: 20px 0;
+}
+
+.navegacao__fixa{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .itens-li{
     display: inline;
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Bebas Neue', sans-serif;
+    border-right: solid 1px antiquewhite;
 }
 
 .itens-a{
     text-decoration: none;
-    padding: 15px 30px;
-    color: antiquewhite;
+    padding: 0px 100px;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
 .itens-a:hover{
+    font-size: 40px;
     background-color: rgb(42, 42, 42);
+    color: rgb(253, 231, 201);
 }
 
-.conteudo__imagens{
-   text-align: center; 
-}
-
-
-
-.conteudo__imagens__titulos{
+.conteudo__titulo__titulos{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3.5vw;
     text-align: center;
@@ -61,8 +64,24 @@ header{
     padding-bottom: 10px;
 }
 
+.padrao-historia{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%
+}
+
+.padrao-historia__paragrafo{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 0.5%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+
 .imgs{
-    width: 35%;
+    width: 50%;
+    height: 50%;
     border-radius: 30px;
     border: solid black 1.70px;
     margin-bottom: 65px;
