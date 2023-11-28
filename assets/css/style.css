@@ -48,8 +48,10 @@ header{
 }
 
 .conteudo__imagens{
-text-align: center;
+   text-align: center; 
 }
+
+
 
 .conteudo__imagens__titulos{
     font-family: 'Bebas Neue', sans-serif;
