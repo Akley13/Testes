@@ -49,14 +49,13 @@ header{
 
 .conteudo__imagens{
 text-align: center;
-
 }
 
 .conteudo__imagens__titulos{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3.5vw;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 
@@ -64,4 +63,5 @@ text-align: center;
     width: 35%;
     border-radius: 30px;
     border: solid black 1.70px;
+    margin-bottom: 65px;
 }
