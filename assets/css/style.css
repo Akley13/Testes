@@ -43,6 +43,10 @@ header{
     border-right: solid 1px antiquewhite;
 }
 
+.itens-li:hover{
+    font-size: 40px;
+}
+
 .itens-a{
     text-decoration: none;
     padding: 0px 100px;
@@ -51,9 +55,8 @@ header{
 }
 
 .itens-a:hover{
-    font-size: 40px;
     background-color: rgb(42, 42, 42);
-    color: rgb(253, 231, 201);
+    color: rgb(255, 195, 112);
 }
 
 .conteudo__titulo__titulos{
